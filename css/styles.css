@@ -493,10 +493,6 @@ color: var(--white-color);
         background-color: #31d0aa;
     }
 
-    /*
-    .footer-input{
-        display: inline-block;
-    }*/
 
     .text-subscribe{
     font-family:var(--primeri-font-family);
@@ -862,7 +858,9 @@ color: var(--white-color);
         .modal-form-check-desk{
             align-items: center;
         }
-
+        .modal-privasy{
+            margin-bottom: 24px; 
+        }
 
     .modal-form-check-desk .modal-icon{
         width: 16px;
@@ -883,10 +881,9 @@ color: var(--white-color);
         border: none;
         fill: var(--background-light);
     }
-    /*border: 1px solid var(--pressed-state);*/
+    
 
     .modal-form-check-desk{
-        display: flex;
         align-items: center;
         font-family:var(--primeri-font-family);
         font-weight: 400;
@@ -894,8 +891,6 @@ color: var(--white-color);
         line-height: 1.17;
         letter-spacing: 0.04em;
         color:var(--color-icons);
-        margin-bottom: 24px;
-
     }
     .modal-href{
         color: var(--primary-brand-color);
